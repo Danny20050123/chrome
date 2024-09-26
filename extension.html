@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo With Alerts</title>
+  <link rel="stylesheet" href="extension.css">
+</head>
+<body>
+  <div class="title">
+    <h2>Task Alert To Do List</h2>
+  </div>
+
+  <div class="eventInput" id="eventInput">
+    <div style="overflow: hidden;
+    white-space: nowrap;">
+      <input type="text" id="event">
+      <label for="event">Event Name&emsp;</label>
+    </div>
+    <div style="overflow: hidden;
+    white-space: nowrap;">
+      <input type="checkbox" id="setReminder">
+      <label for="setReminder">Set Reminder?</label>
+    </div>
+    
+    <div style="overflow: hidden;
+    white-space: nowrap;">
+      <input type="date" id="date">
+      <label for="date">Date&emsp;</label>
+    
+      <input type="time" id="time">
+      <label for="time">Time<br></label>
+    </div>
+    <button id="add event">Add</button>
+  </div>
+
+  <ol id="eventList"></ol>
+
+  <div class="color">
+    <p1>Choose Primary Color:</p1>
+    <input type="color" id="color1" />
+
+    <p1><br>Choose Secondary Color:</p1>
+    <input type="color" id="color2" />
+  </div>
+
+
+  <script src="extension.js"></script>
+</body>

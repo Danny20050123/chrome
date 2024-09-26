@@ -1,0 +1,46 @@
+html, body {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-between;*/
+  height: 100%;
+  width: 100%;
+  min-width: 325px;
+  background-color: white;
+  margin: 0;
+  padding: 0;  
+}
+
+.title {
+  font-family: Arial, sans-serif;
+  font-size: large;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.color {
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  text-align: center;
+  line-height: 2;
+}
+
+.eventInput{
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  margin-bottom: 0px;
+  text-align: center;
+  flex-direction: row;
+  padding:2px;
+  line-height: 1;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+input[type="color"] {
+  cursor: pointer;
+}
